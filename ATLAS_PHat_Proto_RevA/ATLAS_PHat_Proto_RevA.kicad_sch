@@ -1,0 +1,769 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d803aa7a-af79-4766-8d84-689754a8f0e9")
+	(paper "A5")
+	(title_block
+		(title "Proto PHat ")
+		(date "2026-06-13")
+		(rev "A")
+		(company "Driftless-VEXU")
+	)
+	(lib_symbols)
+	(junction
+		(at 143.51 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f2b65b-b130-4c4d-8127-a0d41256fbf0")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096f57ca-2ef3-4482-a770-82b9260c96ee")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 59.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f14fcd-e915-404b-8f30-f99804b1170a")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309797f5-61d7-4d8c-95bd-f2ca9fe96fe3")
+	)
+	(wire
+		(pts
+			(xy 57.15 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee51930-d311-4bc3-921c-8ee2361b8596")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad5c96a-d171-43cd-81d9-1229d9b50f10")
+	)
+	(wire
+		(pts
+			(xy 57.15 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621d2ee4-7bb1-4147-a872-7941244f2f92")
+	)
+	(wire
+		(pts
+			(xy 85.09 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ff6aa2-8563-402c-8c75-f62e8da63437")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739cdb7c-6966-427e-983c-8529bd1cfb29")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812d878a-fca0-4fd8-9256-d2fcadf892be")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883a0670-bfaf-4273-b748-8b55101d216a")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcc3126-3fca-4129-8662-fb43212829cb")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9643bf9b-bcad-4baa-91b8-6445adb95710")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4168f5-ebe9-4afc-84ac-815618c4500d")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbeada1b-b347-4678-86dd-c1c6631caf0f")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec75509-f2ce-4fa1-b420-85dbeed4f5c1")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4aa54d-4f0c-48cb-99d0-f8fc36eff3d9")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc88880-f2ad-4d6e-8c9e-04241541fc02")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7e6b37-162f-440f-9893-873da6ee54c9")
+	)
+	(sheet
+		(at 115.57 44.45)
+		(size 26.67 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1fb8c00d-8fbd-47db-a907-839d4586a9db")
+		(property "Sheetname" "PI Interface"
+			(at 115.57 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PI_interface.kicad_sch"
+			(at 115.57 72.9746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OTOS_SDA" bidirectional
+			(at 142.24 67.31 0)
+			(uuid "761e6620-4fdf-4ad5-8509-8ad334dd13ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OTOS_SCL" bidirectional
+			(at 142.24 69.85 0)
+			(uuid "ef4689fc-26d5-4263-8aa9-0d56a88de296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_3V3" output
+			(at 142.24 64.77 0)
+			(uuid "512f1341-cd29-47f1-afae-afd407fe164f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RPI_RX" input
+			(at 115.57 67.31 180)
+			(uuid "5308064f-fc99-4c91-b74f-b4dd1f3292cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_5V_5A" input
+			(at 115.57 48.26 180)
+			(uuid "4b0d151c-c96b-4694-85ad-9c5a6d1bb0fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RPI_TX" output
+			(at 115.57 69.85 180)
+			(uuid "f80251dc-0d7f-410f-8350-387c77426ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 44.45)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3930287b-efdc-4e9e-b5c8-9f065f2f0414")
+		(property "Sheetname" "Buck Converter"
+			(at 87.63 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck_Converter.kicad_sch"
+			(at 87.63 52.6546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN_12V" input
+			(at 87.63 48.26 180)
+			(uuid "aeb00a0b-f5f4-4bc2-b4fd-079f6d75fd11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_5V_5A" output
+			(at 113.03 48.26 0)
+			(uuid "d08db434-d4f2-46a8-9a78-1a25c20121a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 53.34)
+		(size 12.7 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4443f40b-5cd1-44c7-a396-4af08508892b")
+		(property "Sheetname" "Communication Interface"
+			(at 59.436 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transmitting_data.kicad_sch"
+			(at 59.69 75.5146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Incoming_A" output
+			(at 59.69 55.88 180)
+			(uuid "800c7426-d845-4a4a-8054-0e9cafa7cfe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_3V3" input
+			(at 72.39 72.39 0)
+			(uuid "32f190e9-1670-4f4d-a083-81d3cead3115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RPI_TX" input
+			(at 72.39 69.85 0)
+			(uuid "63d28cb8-c99c-4db4-8b73-4802b14b7e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Incoming_B" output
+			(at 59.69 58.42 180)
+			(uuid "c86e63f1-6002-4150-93c1-c40afb2cddd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Outgoing_B" output
+			(at 59.69 60.96 180)
+			(uuid "b9ba7025-0d1f-423f-8c04-0f81c3e0fb9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Outgoing_A" output
+			(at 59.69 63.5 180)
+			(uuid "c7b39888-bff5-4a2c-9784-8d5be5c3ddb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RPI_RX" input
+			(at 72.39 67.31 0)
+			(uuid "f8fae516-18f5-4d36-a540-c5834cf6a1a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 44.45)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a425fd87-5382-4332-bb6b-e76d571887a9")
+		(property "Sheetname" "Ideal Diode Controller"
+			(at 59.69 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ideal_Diode_Controller.kicad_sch"
+			(at 59.69 52.6546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "VBUS_PORTB" input
+			(at 59.69 46.99 180)
+			(uuid "eda6220b-d1e3-4d51-b82e-5f725da9b33d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_PORTA" input
+			(at 59.69 49.53 180)
+			(uuid "b90510de-8e21-4f43-a03e-b4127f274a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_12V" output
+			(at 85.09 48.26 0)
+			(uuid "4e0a4725-6405-4310-85c5-a822ca819f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 44.45)
+		(size 13.97 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bda0cbec-e70f-479e-a268-aa9157e1e665")
+		(property "Sheetname" "Brain Interface"
+			(at 43.18 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Brain_Interface.kicad_sch"
+			(at 43.18 66.6246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Incoming_A" output
+			(at 57.15 55.88 0)
+			(uuid "b82a7aaa-f925-4a52-80a1-7a0c14a72509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Incoming_B" output
+			(at 57.15 58.42 0)
+			(uuid "a26bd265-5431-40d7-8b95-4fe1453275db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Outgoing_B" input
+			(at 57.15 60.96 0)
+			(uuid "b479072d-d291-4274-afea-2517b540d0a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Outgoing_A" input
+			(at 57.15 63.5 0)
+			(uuid "14378e01-7d2f-4980-821d-61592433d43d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PORTA" output
+			(at 57.15 49.53 0)
+			(uuid "4fb9c02c-a5ad-43c2-9b84-90dfdb571ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PORTB" output
+			(at 57.15 46.99 0)
+			(uuid "ba883586-e2a1-4948-a945-8ddce9a4b31b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 62.23)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d70a96a3-a8a8-4c4e-8a86-a8d7da4b9e9d")
+		(property "Sheetname" "OTOS Interface"
+			(at 144.78 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OTOS_interface.kicad_sch"
+			(at 144.78 72.9746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OTOS_SDA" output
+			(at 144.78 67.31 180)
+			(uuid "f58b27ee-f2c6-43ab-895c-5cde538d12fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_3V3" output
+			(at 144.78 64.77 180)
+			(uuid "836558b2-c69a-4c97-82f4-4dcfc423e18a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OTOS_SCL" output
+			(at 144.78 69.85 180)
+			(uuid "97336e79-d488-485f-941b-834b0607b4e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ATLAS_PHat_Proto_RevA"
+				(path "/d803aa7a-af79-4766-8d84-689754a8f0e9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
