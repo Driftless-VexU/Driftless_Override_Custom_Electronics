@@ -1948,8 +1948,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 11.43 0)
+			(property "Reference" "U5"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1959,7 +1959,7 @@
 				)
 			)
 			(property "Value" "LMR33620ADDA"
-				(at 0 8.89 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1980,7 +1980,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33620.pdf"
-				(at 0 -2.54 0)
+				(at 3.048 -28.702 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1991,7 +1991,7 @@
 				)
 			)
 			(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=400kHz, Adjustable output voltage, HSOP-8"
-				(at 0 0 0)
+				(at 3.302 -25.654 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2026,7 +2026,7 @@
 			(symbol "LMR33620ADDA_0_1"
 				(rectangle
 					(start -7.62 7.62)
-					(end 7.62 -7.62)
+					(end 7.62 -16.51)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2038,7 +2038,7 @@
 			)
 			(symbol "LMR33620ADDA_1_1"
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at 0 -19.05 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2092,7 +2092,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 10.16 -5.08 180)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "PG"
 						(effects
@@ -2110,7 +2110,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -2.54 180)
+					(at 10.16 -8.89 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -2128,7 +2128,7 @@
 					)
 				)
 				(pin power_out line
-					(at -10.16 -5.08 0)
+					(at -10.16 -8.89 0)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -2146,7 +2146,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 5.08 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "BOOT"
 						(effects
@@ -2164,7 +2164,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 2.54 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -2182,7 +2182,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -19.05 90)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -3190,7 +3190,7 @@
 	)
 	(text "5V Rail"
 		(exclude_from_sim no)
-		(at 127.762 130.556 0)
+		(at 152.654 113.792 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3246,7 +3246,7 @@
 	)
 	(text "3.3V Rail"
 		(exclude_from_sim no)
-		(at 193.548 129.54 0)
+		(at 153.416 118.364 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3271,6 +3271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f6ecb2-3461-4b68-b9e4-d8eaf8eea10f")
+	)
+	(junction
+		(at 154.94 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f4cc66-3806-4924-9882-e8632f110b63")
 	)
 	(junction
 		(at 38.1 30.48)
@@ -3309,10 +3315,28 @@
 		(uuid "4b40e634-0c1f-4946-aaab-b1b2c66a08dc")
 	)
 	(junction
+		(at 175.26 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570dcef9-3eb7-4d08-b969-b461bea63d73")
+	)
+	(junction
 		(at 90.17 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74921c17-3909-4da4-afde-a76d1687347b")
+	)
+	(junction
+		(at 154.94 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c45b195-2d12-4d17-a5c7-8e98dfeb7ab3")
+	)
+	(junction
+		(at 165.1 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ba30df-8e55-4238-9e01-36e547e7cadf")
 	)
 	(junction
 		(at 90.17 26.67)
@@ -3402,6 +3426,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 143.51) (xy 175.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1719512e-27b6-4829-a0f1-2253946eec34")
+	)
+	(wire
+		(pts
 			(xy 76.2 36.83) (xy 76.2 38.1)
 		)
 		(stroke
@@ -3409,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "1e327d0f-adfc-4622-be98-b08ba45155f4")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec22da3-5e01-4b86-ab31-195f06c62145")
 	)
 	(wire
 		(pts
@@ -3482,6 +3526,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 147.32) (xy 154.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbc682d-5173-4ba2-af02-fd1b1234c587")
+	)
+	(wire
+		(pts
 			(xy 143.51 26.67) (xy 129.54 26.67)
 		)
 		(stroke
@@ -3552,6 +3606,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 147.32) (xy 165.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596af240-1be5-429b-a5d0-d0068925f4c1")
+	)
+	(wire
+		(pts
+			(xy 175.26 138.43) (xy 176.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e539b50-3e5c-4889-b794-dc2a366fc4b5")
+	)
+	(wire
+		(pts
 			(xy 116.84 92.71) (xy 116.84 93.98)
 		)
 		(stroke
@@ -3612,6 +3686,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b86bb08-8a74-4221-8def-fd9c77eb4cc7")
+	)
+	(wire
+		(pts
 			(xy 35.56 66.04) (xy 36.83 66.04)
 		)
 		(stroke
@@ -3662,6 +3746,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 138.43) (xy 175.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17fa700-ecdf-4b9c-a235-6f45336f363a")
+	)
+	(wire
+		(pts
 			(xy 35.56 58.42) (xy 36.83 58.42)
 		)
 		(stroke
@@ -3669,6 +3763,16 @@
 			(type default)
 		)
 		(uuid "ab9d30e9-5538-4769-83d4-418e6c92c879")
+	)
+	(wire
+		(pts
+			(xy 154.94 146.05) (xy 154.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a3659a-cda2-4555-a417-4da44a060952")
 	)
 	(wire
 		(pts
@@ -3809,6 +3913,26 @@
 			(type default)
 		)
 		(uuid "e7689ff2-2182-4f49-9ebc-899f7d740668")
+	)
+	(wire
+		(pts
+			(xy 151.13 138.43) (xy 154.94 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb135734-5f08-4b6c-9d6e-50f19a61bcd2")
+	)
+	(wire
+		(pts
+			(xy 165.1 146.05) (xy 165.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbdde5e-cf30-4992-aaa9-e698023003cc")
 	)
 	(wire
 		(pts
@@ -4258,8 +4382,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17207788-82f0-46ea-b0a7-d81f0f77e705")
+		(property "Reference" "C8"
+			(at 158.496 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 157.988 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.9052 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18968946-10c3-40d2-af25-936fa04d81bb")
+		)
+		(pin "2"
+			(uuid "fb1f686d-907b-479c-824e-6f706d61febd")
+		)
+		(instances
+			(project "ATLAS_RevB"
+				(path "/6466aa11-c721-4128-b532-889a39e86858"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:LMR33620ADDA")
-		(at 194.31 148.59 0)
+		(at 186.69 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4270,7 +4475,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c872221-8210-471c-a54f-f49ccfeb95c0")
 		(property "Reference" "U5"
-			(at 194.31 135.89 0)
+			(at 186.69 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4280,7 +4485,7 @@
 			)
 		)
 		(property "Value" "LMR33620ADDA"
-			(at 194.31 138.43 0)
+			(at 186.69 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4290,7 +4495,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-			(at 194.31 168.91 0)
+			(at 186.69 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4506,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33620.pdf"
-			(at 194.31 151.13 0)
+			(at 189.738 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +4517,7 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=400kHz, Adjustable output voltage, HSOP-8"
-			(at 194.31 148.59 0)
+			(at 189.992 169.164 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4725,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:LMR51430")
-		(at 128.27 148.59 0)
+		(at 121.92 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4531,7 +4736,7 @@
 		(fields_autoplaced yes)
 		(uuid "47917d8b-db10-4ec9-b344-2a3b62322bdc")
 		(property "Reference" "U4"
-			(at 128.27 138.43 0)
+			(at 121.92 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4541,7 +4746,7 @@
 			)
 		)
 		(property "Value" "LMR51430"
-			(at 128.27 140.97 0)
+			(at 121.92 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4551,7 +4756,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 129.54 157.48 0)
+			(at 123.19 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51430.pdf"
-			(at 129.54 160.02 0)
+			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +4780,7 @@
 			)
 		)
 		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
-			(at 128.27 148.59 0)
+			(at 121.92 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,6 +4812,165 @@
 			(project "ATLAS_RevB"
 				(path "/6466aa11-c721-4128-b532-889a39e86858"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a84ce96-bf9c-42b3-8df2-7b57f9f59ae6")
+		(property "Reference" "C7"
+			(at 168.91 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 168.402 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.0652 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e847520f-0b1f-40db-9ede-1542880ce3a4")
+		)
+		(pin "2"
+			(uuid "61213470-4b1d-4dd7-b2ed-02416f05b3f7")
+		)
+		(instances
+			(project "ATLAS_RevB"
+				(path "/6466aa11-c721-4128-b532-889a39e86858"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 151.13 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe245ba-c640-47b5-a7f2-240c8b1cc68f")
+		(property "Reference" "#PWR013"
+			(at 151.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 151.13 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 151.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f824f8cb-fe81-4459-8ec3-c59e5638a85d")
+		)
+		(instances
+			(project "ATLAS_RevB"
+				(path "/6466aa11-c721-4128-b532-889a39e86858"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5204,6 +5568,84 @@
 			(project "ATLAS_RevB"
 				(path "/6466aa11-c721-4128-b532-889a39e86858"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce8a693-197a-407a-b99b-37a9c53c00ad")
+		(property "Reference" "#PWR012"
+			(at 154.94 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c18e707-d0f0-43f5-93ae-e42fa8890c74")
+		)
+		(instances
+			(project "ATLAS_RevB"
+				(path "/6466aa11-c721-4128-b532-889a39e86858"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
